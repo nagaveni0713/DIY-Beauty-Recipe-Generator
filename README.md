@@ -35,3 +35,4 @@ Uses only HTML, CSS, and JavaScript.
 
 📌 Note
 This project is for educational and demonstration purposes only. Always do a patch test before trying any DIY skincare recipes.
+
