@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Beauty Recipe Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DIY Beauty Recipe Generator</h1>
+        
+        <label for="skinType">Select Your Skin Type:</label>
+        <select id="skinType">
+            <option value="oily">Oily</option>
+            <option value="dry">Dry</option>
+            <option value="combination">Combination</option>
+            <option value="sensitive">Sensitive</option>
+        </select>
+        
+        <label>Select Ingredients:</label>
+        <div class="ingredients">
+            <input type="checkbox" id="honey" value="honey"><label for="honey">Honey</label>
+            <input type="checkbox" id="aloe" value="aloe"><label for="aloe">Aloe Vera</label>
+            <input type="checkbox" id="coconut" value="coconut"><label for="coconut">Coconut Oil</label>
+            <input type="checkbox" id="yogurt" value="yogurt"><label for="yogurt">Yogurt</label>
+            <input type="checkbox" id="oatmeal" value="oatmeal"><label for="oatmeal">Oatmeal</label>
+        </div>
+        
+        <button onclick="generateRecipe()">Generate Recipe</button>
+        
+        <div id="recipeResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

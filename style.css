@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    color: #d81b60;
+}
+
+label, select, button {
+    display: block;
+    margin: 10px auto;
+}
+
+.ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ingredients input {
+    margin-right: 5px;
+}
+
+button {
+    background: #d81b60;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ad1457;
+}
+
+#recipeResult {
+    margin-top: 20px;
+    font-weight: bold;
+}
